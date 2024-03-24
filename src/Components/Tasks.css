@@ -1,0 +1,139 @@
+.visually-hidden {
+          position: absolute;
+          width: 1px;
+          height: 1px;
+          padding: 0;
+          margin: -1px;
+          overflow: hidden;
+          clip: rect(0, 0, 0, 0);
+          white-space: nowrap;
+          border: 0;
+        }
+.app-title {
+          border: 1px solid rgba(255, 255, 255, 1);
+         width:fit-content;
+         margin: auto;
+          font-family: Inter, sans-serif;
+          padding:3px;
+          
+       
+        }
+h1{
+    padding: 0;
+    margin:0;
+}
+        .head-border{
+            border: 1px solid rgba(255, 255, 255, 1);
+           padding:10px 20px 10px 20px;
+           font-size: 40px;
+        }
+        
+
+        .container {
+          background: radial-gradient(
+            50% 50% at 50% 50%,
+            #051235 0%,
+            #050f29 34%,
+            #010612 71.5%,
+            #000206 100%
+          );
+          display: flex;
+          flex-direction: column;
+          padding: 80px 68px 49px;
+          
+        }
+
+
+
+        .header {
+          display: flex;
+          gap: 20px;
+          font-size: 60px;
+          color: #fff;
+          justify-content: space-between;
+          margin: 57px 0 0 38px;
+        }
+
+
+
+        .header-icon {
+          width: 90px;
+          margin: auto 0;
+        }
+
+        .header-title {
+          font-family: Inter, sans-serif;
+          border: 3px solid #fff;
+          padding: 41px 48px;
+          
+        }
+
+
+        .task-list {
+          border: 3px solid #fff;
+          margin-top: 50px;
+          padding: 16px;
+        }
+
+
+
+        .task-items {
+          border: 3px solid #fff;
+          display: flex;
+          flex-direction: column;
+          padding: 48px 19px 27px 80px;
+        }
+
+
+        .task-item {
+          display: flex;
+          align-items: start;
+          gap: 20px;
+          font-size: 35px;
+          color: #fff;
+          margin: 0 18px 28px 32px;
+        }
+
+
+
+        .task-description {
+          font-family: Inter, sans-serif;
+          flex-grow: 1;
+        }
+
+        .task-label {
+          font-weight: 700;
+        }
+
+        .task-icon {
+          width: 55px;
+        }
+
+        .new-task-input {
+          display: flex;
+          gap: 18px;
+          font-size: 35px;
+          color: white;
+          margin: 33px 0 0 22px;
+        }
+        input{
+            color: white;
+        }
+
+        .new-task-field {
+          font-family: Inter, sans-serif;
+          border: 3px solid #fff;
+          flex-grow: 1;
+          padding: 22px 10px;
+          background-color: transparent;
+        }
+
+.new-task-field::placeholder{
+    font-size: x-large;
+    color: white !important;
+}
+
+
+        .new-task-icon {
+          width: 90px;
+        }
